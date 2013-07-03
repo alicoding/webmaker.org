@@ -21,7 +21,9 @@
     "moment": "~2.0.0",
     "webmaker-loginapi": "0.1.6",
     "newrelic": "0.9.22",
-    "webmaker-events": "https://github.com/mozilla/webmaker-events/tarball/v0.1.6"
+    "webmaker-events": "https://github.com/mozilla/webmaker-events/tarball/v0.1.6",
+    "i18n-abide": "git://github.com/humphd/i18n-abide.git#fc932caa42a4cfa88161dfe1a27e88085e85e3bd"
+
   },
   "devDependencies": {
     "grunt": "0.4.1",

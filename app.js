@@ -10,7 +10,9 @@ var express = require( "express" ),
     persona = require( "express-persona" ),
     route = require( "./routes" ),
     lessMiddleWare = require( "less-middleware" ),
-    makeAPI = require( "./lib/makeapi-webmaker" );
+    makeAPI = require( "./lib/makeapi-webmaker" ),
+    i18n = require('i18n-abide');
+
 
 habitat.load();
 
@@ -36,6 +38,23 @@ if ( !!env.get( "FORCE_SSL" ) ) {
   app.enable( "trust proxy" );
 }
 app.use( express.compress() );
+
+// Setup locales with i18n
+app.use( i18n.abide({
+  supported_languages: [
+    'en_US', 'th_TH'
+  ],
+  default_lang: "en_US",
+  translation_type: "plist",
+  translation_directory: "locale",
+  localeOnUrl: true
+}));
+// Dump locale info to console
+app.use( function( req, res, next ) {
+  console.log( "Using locale: %s", req.lang);
+  next();
+});
+
 app.use( express.static( path.join( __dirname, "public" )));
 app.use( express.bodyParser() );
 app.use( express.cookieParser() );

@@ -84,6 +84,7 @@ define(['jquery', 'jquery.carousel'], function($) {
       width : 870,
       items : 3,
       align: 'center',
+      responsive: true,
       scroll: { fx: 'fade' },
       next: { button: $('.refresh-sponsors') }
     });

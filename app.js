@@ -10,7 +10,7 @@ var express = require( "express" ),
     nunjucks = require( "nunjucks" ),
     path = require( "path" ),
     lessMiddleWare = require( "less-middleware" ),
-    i18n = require( "i18n-abide" );
+    i18n = require( "webmaker-i18n" );
 
 habitat.load();
 
@@ -116,13 +116,12 @@ app.use( express.static( WWW_ROOT ));
 app.use( "/bower", express.static( path.join(__dirname, "bower_components" )));
 
 // Setup locales with i18n
-app.use( i18n.abide({
+app.use( i18n.middleware({
   supported_languages: [
-    'en-US'
+    'en-US', 'th-TH'
   ],
   default_lang: "en-US",
-  translation_type: "key-value-json",
-  translation_directory: "locale",
+  translation_directory: path.join(__dirname, "locale"),
   locale_on_url: true
 }));
 

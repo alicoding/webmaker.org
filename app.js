@@ -355,6 +355,7 @@ app.get("/appmaker", routes.angular);
 app.get("/feedback", routes.angular);
 app.get("/getinvolved", routes.angular);
 app.get("/about", routes.angular);
+app.get("/hackyourschool-*", routes.angular);
 
 app.get("/make-your-own", routes.angular);
 app.get('/madewithcode-*', routes.angular);

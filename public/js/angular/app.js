@@ -79,6 +79,11 @@ angular.module('webmakerApp', ['ngRoute', 'ui.bootstrap', 'webmakerApp.services'
           controller: 'aboutController',
           title: 'About'
         })
+        .when('/:locale?/hackyourschool-:mwc', {
+          templateUrl: '/views/hack-your-school.html',
+          controller: 'mwcController',
+          title: 'Hack Your School'
+        })
         .when('/:locale?/privacy', {
           templateUrl: '/views/privacy.html',
           controller: 'homeController',

@@ -1,0 +1,57 @@
+<div class="container">
+  <div class="row">
+    <img src="/img/hack-your-school-hero.png" alt="{{ 'Get Involved' | i18n }}" class="cover-photo">
+  </div>
+  <article>
+    <div class="row">
+      <header class="col-xs-12">
+        <h1>Maker Party: hack your school</h1>
+
+        <p class="lead"><b>In this Maker Party, you’ll remix your school’s web site.</b> It’s fun, creative, and lets you mess around with HTML, the language that makes up the web. It’s easy!</p>
+        <blockquote><i>Don’t worry — you’re not actually hacking the site for others — just yourself. You’re changing a local version of the site only you can see.</i></blockquote>
+      </header>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-12">
+        <ol class="big-numbers">
+          <li>
+            <h3>Install the X-Ray Goggles</h3>
+            <p>Go to <a href="https://goggles.webmaker.org">https://goggles.webmaker.org</a>. Drag the big yellow “Activate X-Ray Goggles” button to your browser’s bookmarks toolbar.</p>
+            <img src="./img/Goggles_hack_your_school.gif" alt="Goggles hack your school" />
+          </li>
+          <li>
+            <h3>Navigate to your school’s web site</h3>
+          </li>
+          <li>
+            <h3>Activate the Goggles</h3>
+            <p>Click the Goggles to turn them on. Now when you mouse over elements of the page, you’ll see the code underneath.</p>
+          </li>
+          <li>
+            <h3>Hit the “remix” button</h3>
+            <p>Hit “R” on the keyboard to remix any element.</p>
+          </li>
+          <li>
+            <h3>Change the text</h3>
+            <p>Try changing some of the text on the page. You could announce that your school is closed next week, that your teacher has been abducted by aliens — anything!</p>
+          </li>
+          <li>
+            <h3>Bonus points: swap in a new image</h3>
+            <p>Mouse over an image on the page and hit “R” / “Remix.” Then paste in the address for your new image.</p>
+            <blockquote><i><b>TOP TIP: How do you find the address for a new image?</b> First, find an image you like on the web. Right-click or control-click on the image you want and select: “Copy image location.” (Or “Copy image URL” or “Copy image address”, depending on your web browser.) Then paste your new image URL over top of the old one. Be careful not to lose the quotation marks!</i></blockquote>
+            <img src="./img/hack-your-school-image-swap.png" alt="Goggles hack your school" />
+          </li>
+          <li>
+            <h3>Share</h3>
+            <ul>
+              <li><b>Publish your remix.</b> When you’re ready to share your remixed page, click the Publish button or press P on your keyboard. This makes your changes visible on the web for others to see.</li>
+              <li><b>Tweet it.</b> Encourage your participants to share what they made using the <a href="https://twitter.com/search?q=%23makerparty&src=typd">#makerparty</a> hashtag. Who’s got the most creative remix?</li>
+              <li><b>Claim your badge.</b> Claim the <a href="https://webmaker.org/badges/remixing-maker">“Remixing” badge here.</a> You’ve earned it!</li>
+              <li><b>Reward helpers with badges.</b> If you had helpers or co-organizers you’d like to recognize, they can claim a free <a href="https://webmaker.org/badges/skill-sharer">“Skill Sharer” badge here!</a></li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </article>
+</div>
